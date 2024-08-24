@@ -10,3 +10,20 @@ digraph {
 "New Data" -> "Model"
 }
 ''')
+import streamlit as st
+
+# Use st.markdown to inject custom CSS
+st.markdown(
+    """
+    <style>
+    body {
+        background-color: #ADD8E6; /* Light blue background */
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
+
+# Your Streamlit app content goes here
+
+st.write("This page has a custom background color!")
