@@ -16,7 +16,7 @@ import streamlit as st
 st.markdown(
     """
     <style>
-    body {
+    .main {
         background-color: red; /* Light blue background */
     }
     </style>
