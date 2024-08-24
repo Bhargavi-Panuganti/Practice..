@@ -1,0 +1,5 @@
+import streamlit as st
+st.write(pd.DataFrame({
+'column one': [5.436, 6.372, 3.645, 4.554, 7.263],
+'column two': [99, 55, 75, 41, 37],
+}))
